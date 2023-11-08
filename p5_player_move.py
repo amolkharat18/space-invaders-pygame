@@ -46,9 +46,9 @@ while running:
         # if keystroke is pressed check whether its right or left and move player
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
-                player_x_change = -3
+                player_x_change = -5
             if event.key == pygame.K_RIGHT:
-                player_x_change = 3
+                player_x_change = 5
 
         # if key released then stop movement
         if event.type == pygame.KEYUP:
