@@ -20,14 +20,14 @@ icon = pygame.image.load('ufo.png')
 pygame.display.set_icon(icon)
 
 # create player
-playerImg = pygame.image.load('player.png')
+player_img = pygame.image.load('player.png')
 player_x = 370
 player_y = 480
 player_x_change = 0
 
 
 def player():
-    screen.blit(playerImg, (player_x, player_y))
+    screen.blit(player_img, (player_x, player_y))
 
 
 while running:
