@@ -11,9 +11,8 @@ while running:
     # poll for events
     # pygame.QUIT event means the user clicked X to close your window
     for event in pygame.event.get():
-        match event.type:
-            case pygame.QUIT:
-                running = False
+        if event.type == pygame.QUIT:
+            running = False
 
     # flip() the display to put your work on screen
     pygame.display.flip()
